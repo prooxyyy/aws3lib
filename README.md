@@ -6,8 +6,9 @@ PyPi: https://pypi.org/project/aws3lib/
 
 Installation: `pip install aws3lib`
 
-Requirements:
+# Requirements:
+Python >= 3.9
 
-    - Python >= 3.9
-    - Boto3
-    - Configured [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html)
+Boto3
+
+Configured [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html)
