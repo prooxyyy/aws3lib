@@ -7,7 +7,7 @@ PyPi: https://pypi.org/project/aws3lib/
 Installation: `pip install aws3lib`
 
 # Requirements:
-Python >= 3.9
+Python >= 3.8
 
 Boto3
 
