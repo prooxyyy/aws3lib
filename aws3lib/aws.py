@@ -6,9 +6,6 @@ from botocore.exceptions import ClientError
 
 from exceptions import ObjectMustBeNotNull, PolicyMustBeNotNull
 
-author = "pro0xy"
-version = "1.0.0"
-
 class AWS3:
     """
     Class for managing AWS S3 storage

@@ -1,4 +1,4 @@
-from aws import AWS3
+from aws3lib.aws import AWS3
 
 """
 EXAMPLE USING aws3lib
