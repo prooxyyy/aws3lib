@@ -10,3 +10,4 @@ Requirements:
 
     - Python >= 3.9
     - Boto3
+    - Configured [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html)
