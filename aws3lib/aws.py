@@ -4,7 +4,14 @@ import boto3
 from boto3.s3.transfer import TransferConfig
 from botocore.exceptions import ClientError
 
-from exceptions import ObjectMustBeNotNull, PolicyMustBeNotNull
+
+class ObjectMustBeNotNull(Exception):
+    def __init__(self):
+        super().__init__("Object must be not null")
+
+class PolicyMustBeNotNull(Exception):
+    def __init__(self):
+        super().__init__("Policy must be not null")
 
 class AWS3:
     """
